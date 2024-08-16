@@ -102,6 +102,7 @@ margin-top: 70px;
   padding: 10px;
   min-width: 200px;
   margin-bottom: 50px;
+  transition: transform 0.5s;
 }
 .col-4 img{
     width: 100%;
@@ -124,11 +125,22 @@ margin-top: 70px;
     left: 50%;
     transform: translateX(-50%);
 }
+h4{
+ color: #555; 
+ font-weight: normal;  
+}
+.col-4 p{
+  font-size: 14px;  
+}
+.rating .fa-solid{
+color:#ff523b ;
+}
+.fa-regular{
+    color:#ff523b ;   
+}
+.col-4:hover{
+    transform: translate(-5px);
+}
 
 
-
-
-
-
-
-
+ 
