@@ -223,6 +223,9 @@ transition: 0.5s ;
     color: #fff;
     margin-bottom: 20px;
 }
+.row-1{
+    display: flex;
+    }
 .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
 min-width: 250px;
 margin-bottom: 20px;
@@ -245,9 +248,7 @@ margin-bottom: 20px;
 ul{
     list-style-type: none;
 }
-.row-1{
-display: flex;
-}
+
 .app-logo{
    margin-top: 20px; 
 }

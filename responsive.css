@@ -32,11 +32,19 @@
     .row{
         text-align: center;
     }
-
-
-
-
-
-
-
+    .col-2, .col-3, .col-4, .col-5{
+        flex-basis:100% ;
+    }
+    .brands{
+        margin: 30px 0 20px 0;
+    }
+    .col-5 img{
+width: 40%;
+    }
+    .row-1{
+        text-align: center;
+    }
+    .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+        flex-basis: 100%;
+    }
 }
