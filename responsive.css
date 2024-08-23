@@ -47,4 +47,14 @@ width: 40%;
     .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
         flex-basis: 100%;
     }
+    .single-product, .row{
+text-align: left;
+    }
+    .single-product, .col-2{
+        padding: 20px 10px;
+    }
+    .single-product h1{
+        font-size:26px;
+        line-height: 32px;
+    }
 }
